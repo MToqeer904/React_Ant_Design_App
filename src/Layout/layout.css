@@ -1,0 +1,32 @@
+ .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .site-layout-sub-header-background {
+    background: #fff;
+  }
+  
+  .site-layout-background {
+    background: #fff;
+    height: 140vh;;
+  }
+
+  .logo::after{
+    content:'Covid-19 Data';
+    color: azure;
+    padding: 30px;;
+    font-weight: bolder;
+  }
+
+  .content{
+      position: relative;;
+  }
+
+  .ac-content{
+      position: absolute;
+      top: 18%;
+      left: 16%;
+      width: 82%;;
+  }
